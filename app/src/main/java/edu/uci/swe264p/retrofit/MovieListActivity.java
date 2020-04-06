@@ -22,7 +22,7 @@ public class MovieListActivity extends AppCompatActivity {
     static final String TAG = MainActivity.class.getSimpleName();
     static final String BASE_URL = "https://api.themoviedb.org/3/";
     static Retrofit retrofit = null;
-    final static String API_KEY = "5b04d3481acf07728935e99ae365e3f4";
+    final static String API_KEY = "KEY";
     private RecyclerView recyclerView;
     private List<Movie> movies;
 
